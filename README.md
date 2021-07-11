@@ -1,10 +1,11 @@
 # Portfolio
 Data Science Portfolio
 
+---
 # Google Cloud Platform (GCP) Projects
 
 ## [Project 1: Market Share Decrease Analysis of the NYC Yellow Cab](https://github.com/eerga/nyc_yellow_cab)
----
+
 ### Project Scope
 Our Data Analytics team utilized GCP and Data Studio to conduct exploratory analysis (EDA) along with utilizing machine learning algorithms to identify areas of improvement for the Yellow Cab company and come up with suggestions that would increase its market share.
 
@@ -36,6 +37,7 @@ Even though we did observe activity spikes for both flights and Twitter, the act
 ### Summary of the project 
 The analysis suggests that our hypothesis should be rejected as this marketing strategy is not supported by available data. 
 
+---
 # R Projects
 ## [Project 1: Time Series Analysis of Minimum Temperatures in Melbourne, Australia](https://github.com/eerga/globalwarm)
 
@@ -54,7 +56,22 @@ We normally use RMSE to evaluate model accuracy. Even though I expected for Holt
 ### Conclusions
 Even though we learned a lot about the models, it wasn’t possible to conclude anything globalwarming tendencies. There are 2 possible reasons for this: 1). The range of data is not large enough. It might be more reasonable to obtain at least 50 years of minimum temperature readings and take a look at the data trend to make more appropriate conclusions; 2). While only Melbourne, Austria, was considered in the this analysis, it might be more effective to consider at lear 3 various locations to draw out a better conclusion.
 
+## [Project 2: Survival Analysis of Patients with Diabetic Retinopathy](https://github.com/eerga/Survival_Analysis)
 
+## Project Scope
+In our study, we are interested in finding out which parameters contribute to the patient blindness and which do not. We used three methods to identify those parameters:
+- **Kaplan-Meier Curve**
+- **Log-rank test**
+- **Cox Proportional-hazards model**:
+
+## Key Exploratory Findings
+- It was discovered that whether or not a patient received treatment was significant. Those who received treatment were 57% less likely to lose vision as those who did not receive treatment
+- Those patients who were in the high risk category were 106% more likely to lose vision as those who are in the medium group.
+
+## Suggestion
+The age category group was not balanced as minors constituted 64% of the group and adults consituted the remaining 36%. The implementation of *ntile* would evenly distribute patients into two categories, which potentially can lead to different statistically significant results (i.e., age category might end up being significant). 
+
+---
 # Python Projects
 ## [Project 1: The Popularity Secret Behind Pokémon Card Resale Market](https://github.com/eerga/da_project)
 
@@ -70,6 +87,7 @@ After conductig statistical analysis and building a descriptive model, we conclu
 The two main metrics used to derive the conclusion were p-value and R^2 score as demonstrated in the picture below
 ![alt text](images/statistical_analysis.png)
 
+---
 # SAS Project
 # [Kaggle Competition - SAS](https://www.kaggle.com/c/fall2020-mgmt571lec-project/overview)
 
