@@ -74,7 +74,33 @@ The age category group was not balanced as minors constituted 64% of the group a
 
 ---
 # Python Projects
-## [Project 1: The Popularity Secret Behind Pokémon Card Resale Market](https://github.com/eerga/da_project)
+## Project 1: Understanding and Predicting Project Payment Latency in the Covid-19 Era
+
+### Abstract
+This study develops an order-to-cash process map predictive solution to better understand home remodeling projects' pre- and post-COVID-19 payment latency. In remodeling projects, the day a project is sold (and past rescission) to the time payment is received or installment is first accepted is defined as “order-to-cash.” The risks of delayed processes and delay customer payments can hurt the company’s solvency and financial stability. Especially in the economic condition caused by the pandemic. The motivation for the current study is to optimize the prediction model of the order-to-cash during the pandemic.
+
+### Methodology
+![alt text](images/Methodology.png)
+
+### ML Models and Techniques Used
+- CatBoost
+- Random Survival Forest
+- LightGBM
+- XGBoost
+- Stacked Ensemble
+- Target Encoding
+- Weighing Data Based on Its Recency
+
+### Results
+ - Improved client’s base machine learning model by implementing target encoding feature engineering technique and weighing data, attaining 3% OpEx decrease or $800,000 potential savings
+- [1st place](http://meetings2.informs.org/wordpress/analytics2021/poster-sessions/) in the Student Poster Competition at INFORM Business Analytics Conference
+
+### Suggestions
+Each project has [task dependency](https://www.prince2.com/usa/blog/project-dependencies). For example, you have to first cook the dinner in order to eat it. Similarly, here we had to get the product delivered in order to install it. The task durations present are in cumulative days. Further study would benefit from finding individual task durations, identifying the longest average/median task durations and then finding ways of shortening those. 
+
+Another item includes possible incorporation of time series analysis techniques to accurately predict order-to-cash estimates.
+
+## [Project 2: The Popularity Secret Behind Pokémon Card Resale Market](https://github.com/eerga/da_project)
 
 ### Goal
 Our Data Analytics team assessed the influence of Pokémon YouTubers on Pokémon card resale. Our **hypothesis** was: the higher the YouYube views are, the higher the resale rate of Pokémon cards is. We web scraped historical data of Pokémon card prices and top 10 Pokémon YouTubers’ views, using Wayback Machine and Python </br>
