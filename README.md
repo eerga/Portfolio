@@ -34,7 +34,7 @@ The main machine learning models used were Linear and Logistic Regressions
 Even though we did observe activity spikes for both flights and Twitter, the activity spikes did not overlay, which means that other variable(s) may better explain Twitter activity increase. 
 
 ### Summary of the project 
-Therefore, the analysis suggests that our hypothesis should be rejected as this marketing strategy is not supported by available data. 
+The analysis suggests that our hypothesis should be rejected as this marketing strategy is not supported by available data. 
 
 # Python Projects
 ## [Project 1: The popularity secret behind Pokémon card resale market](https://github.com/eerga/da_project)
