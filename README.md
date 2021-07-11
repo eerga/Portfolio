@@ -57,5 +57,8 @@ The two main metrics used to derive the conclusion were p-value and R^2 score as
 ## Project Overview
 Firm collapse prediction has been a subject of interests for almost a century and it still ranks high among hottest topics in economics. The aim of predicting financial distress is to develop a predictive model that combines various econometric measures and allows to foresee a financial condition of a firm. The purpose of the bankruptcy prediction is to assess the financial condition of a company and its future perspectives within the context of longterm operation on the market.
 
+## Final Model
+![alt text](images/final model.jpg)
+
 ## Model Score
 Our model accuracy achieve a score of 0.79 with the high-performance neural net
