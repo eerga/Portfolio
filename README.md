@@ -9,7 +9,7 @@ Data Science Portfolio
 Our Data Analytics team utilized GCP and Data Studio to conduct exploratory analysis (EDA) along with utilizing machine learning algorithms to identify areas of improvement for the Yellow Cab company and come up with suggestions that would increase its market share.
 
 ### ML Models
-The two main machine learning models used were Boosted Classifier Tree and Linear Regression
+The two main machine learning models used were **Boosted Classifier Tree** and **Linear Regression**
 
 ### One of the key exploratory findings
 ![alt text](images/NYCTaxi.png)
