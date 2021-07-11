@@ -5,8 +5,8 @@ Data Science Portfolio
 
 ## [Project 1: Market Share Decrease Analysis of the NYC Yellow Cab](https://github.com/eerga/nyc_yellow_cab)
 ---
-### Project Score
-Our Data Analytics team utilized GCP and Data Studio to conduct exploratory analysis (EDA) along with utilizing machine learning algoeithms to identify areas of improvement for the Yellow Cab company and come up with suggestions that would increase its market share.
+### Project Scope
+Our Data Analytics team utilized GCP and Data Studio to conduct exploratory analysis (EDA) along with utilizing machine learning algorithms to identify areas of improvement for the Yellow Cab company and come up with suggestions that would increase its market share.
 
 ### ML Models
 The two main machine learning models used were Boosted Classifier Tree and Linear Regression
@@ -15,9 +15,26 @@ The two main machine learning models used were Boosted Classifier Tree and Linea
 ![alt text](images/NYCTaxi.png)
 Not only is it posisble to see that the highest activity of NYC Yellow Cab is in the Manhattan neighborhood but also that credit cards was the most utilized payment option.
 
-### Summary of the project scope
+### Summary of the project 
 • Supervised statistical analysis on market share decrease of NYC Yellow Cab Company in Google Cloud Platform over 225 million records by running linear regression and boosted tree classifier models and visualizing in Data Studio <br />
 • Recommended business strategies such as introducing a yellow cab app with more transparent fare calculations, flexible payment options and optimized route to lower driving costs
+
+## [Project 2: Twitter & Plane Landing Correlation Assessment](https://github.com/eerga/twitter_flights)
+### Project Scope
+Google Cloud Platform (GCP) has real-time Twitter and flights datasets available. We decided to explore the possibility of correlation between the number of successfully landed commercial flights and overall Twitter activity. Assuming this hypothesis is proven, our team would have recommended Twitter to make a joint program with airlines using the hashtag #landedsafelywith[name_of_the_airline_company] to promote flights for specific airlines. As a result, this would create a mutually beneficial relationship between Twitter and the associated airline companies. Twitter would gain user traffic while airline companies are given free marketing material.
+
+### Tool Used
+The analysis was performed using **SQL** and **Python**. Since Twitter information is highly nested, this made defining schemas significantly more difficult on GCP. The Python script was used to extract the most relevant Twitter information. 
+
+### ML Models
+The main machine learning models used were Linear and Logistic Regressions
+
+### One of the key exploratory findings
+![alt text](images/twitter_activity.png)
+Even though we did observe activity spikes for both flights and Twitter, the activity spikes did not overlay, which means that other variable(s) may better explain Twitter activity increase. 
+
+### Summary of the project 
+Therefore, the analysis suggests that our hypothesis should be rejected as this marketing strategy is not supported by available data. 
 
 # Python Projects
 ## [Project 1: The popularity secret behind Pokémon card resale market](https://github.com/eerga/da_project)
