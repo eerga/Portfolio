@@ -30,7 +30,7 @@ The analysis was performed using **SQL** and **Python**. Since Twitter informati
 The main machine learning models used were Linear and Logistic Regressions
 
 ### One of the key exploratory findings
-![alt text](images/twitter_activity.png)
+![alt text](images/twitter_activity.png)</br>
 Even though we did observe activity spikes for both flights and Twitter, the activity spikes did not overlay, which means that other variable(s) may better explain Twitter activity increase. 
 
 ### Summary of the project 
