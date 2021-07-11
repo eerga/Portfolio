@@ -58,17 +58,18 @@ Even though we learned a lot about the models, it wasn’t possible to conclude 
 
 ## [Project 2: Survival Analysis of Patients with Diabetic Retinopathy](https://github.com/eerga/Survival_Analysis)
 
-## Project Scope
+### Project Scope
 In our study, we are interested in finding out which parameters contribute to the patient blindness and which do not. We used three methods to identify those parameters:
-- **Kaplan-Meier Curve**
-- **Log-rank test**
-- **Cox Proportional-hazards model**:
+- **Kaplan-Meier Curve** (univariate analysis)
+- **Log-rank test** (univariate analysis)
+- **Cox Proportional-hazards model** (uni- and multivariate analysis)
 
-## Key Exploratory Findings
+### Key Exploratory Findings
+![alt text](images/summary_table.png)</br>
 - It was discovered that whether or not a patient received treatment was significant. Those who received treatment were 57% less likely to lose vision as those who did not receive treatment
 - Those patients who were in the high risk category were 106% more likely to lose vision as those who are in the medium group.
 
-## Suggestion
+### Suggestion
 The age category group was not balanced as minors constituted 64% of the group and adults consituted the remaining 36%. The implementation of *ntile* would evenly distribute patients into two categories, which potentially can lead to different statistically significant results (i.e., age category might end up being significant). 
 
 ---
