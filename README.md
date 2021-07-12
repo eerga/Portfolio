@@ -183,3 +183,12 @@ Firm collapse prediction has been a subject of interests for almost a century an
 
 ### Model Score
 Our model accuracy achieve a score of 0.79 with the high-performance neural net
+
+---
+# Burroughs Project (Java, Kafka, Docker)
+## [Burroughs](https://pages.github.itap.purdue.edu/Burroughs/Burroughs/)
+
+### Project Goal
+Burroughs exists to bridge the gap between Kafka streaming and real time data analysis. Our team made a Kafka topic behave similarly to a relational database to circumvent spending required for training analysts and data scientists to learn KSQL for real-time data analysis.
+
+### [Project Link](https://pages.github.itap.purdue.edu/Burroughs/Burroughs/)
