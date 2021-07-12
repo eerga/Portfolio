@@ -1,5 +1,5 @@
-# Portfolio
-Data Science Portfolio
+# Data Science Portfolio
+By Erika Ergart
 
 ---
 # Google Cloud Platform (GCP) Projects
