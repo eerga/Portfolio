@@ -133,6 +133,28 @@ As someone who absolutely loves life, I wanted to explore what were some of the 
 - The data suggests that the overall suicide rate has been declining. To have a more comprehensive study, it would be interesting to explore how COVID-19 has affected the suicide rate in the world.
 
 ---
+# SQL Project
+## [College Review Website](https://github.com/eerga/Universities)
+
+### Project Overview
+Our data analytics team is consulting for Niche.com.  While Niche is a reputable resource in the American market, the website is limited to the US market. Our firm has been brought in to expand upon their current data set by introducing more distinguishing fields as well as to establish data on universities from abroad in order to grow their user base internationally. 
+
+### Data Used
+
+- [World University Rankings](https://www.kaggle.com/mylesoneill/world-university-rankings?select=cwurData.csv)
+- [Salaries by College Type](https://www.kaggle.com/wsj/college-salaries?select=salaries-by-college-type.csv)
+- [Recent College Grads Can Expect to Make the Highest Salaries in Germany and US](https://www.kornferry.com/about-us/press/Recent-College-Grads-Can-Expect-to-Make-the-Highest-Salaries-in-Germany-and-U.S)
+- [Cost of Living](https://www.expatistan.com/cost-of-living/country/ranking)
+
+
+### Question Asked and Sample Query
+
+Is having a higher rate of international students and smaller student to staff ratio related to higher Mid-Career 90th Percentile Salary?
+
+### Description of Business Problem Addressed
+After exploring this topic, it was discovered that having a lower student to faculty ratio and higher percentage of international students leads to higher midcareer 90th percentile salary. The lower student to faculty ratio helps professors to develop more personal relationships with students, which not only results into professors answering all of the students' questions, but also in professors assisting their students place into higher paying jobs. The higher international student percentage can be explained by the fact that in the diverse environment there are more opportunities to learn how to approach a problem solution from multiple perspectives, which enriches the student experience and results into improved learning tactic, thus placing students in a better position.
+
+---
 # SAS Project
 ## [Classification Algorithms to Forecast if a Firm Will Collapse](https://www.kaggle.com/c/fall2020-mgmt571lec-project/overview)
 
