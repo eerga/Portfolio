@@ -45,9 +45,9 @@ The analysis suggests that our hypothesis should be rejected as this marketing s
 In this data, we have daily readings of minimum temperatures from Melbourne, Australia for 10 years (1981-1990). I was curious to see if any global warming trends would be visible on the 10-year scale. The reason for choosing minimum temperatures might not seem obvious, but I decided to play with those in order to observe extreme case of global warming. If minimum temperatures directly indicate presence of glabal warming, then we may need to do something before it is too late. I was also curious to see which of the models commonly used in time series forecasting would perform the best. The source code can be viewed in 3 formats: *.ipynb*, *.PDF*, and *.HTML*.
 
 ### Models Used
-- **Seasonal Naive** </br>
-- **Time Series Model with Seasonality** </br>
-- **Holt-Winter** </br>
+-Seasonal Naive </br>
+-Time Series Model with Seasonality </br>
+-Holt-Winter </br>
 
 ### Key Exploratory Figure
 ![alt text](images/Summary.png)</br>
@@ -72,24 +72,9 @@ In our study, we are interested in finding out which parameters contribute to th
 ### Suggestion
 The age category group was not balanced as minors constituted 64% of the group and adults consituted the remaining 36%. The implementation of *ntile* would evenly distribute patients into two categories, which potentially can lead to different statistically significant results (i.e., age category might end up being significant). 
 
-## [Project 3: Personality Test Findings, Purdue University BAIM Program](https://github.com/eerga/rshinyapp)
-
-[App Link](https://eerga.shinyapps.io/personality/) </br>
-[Video Presentation](https://youtu.be/kxh4vm2lxoM) - Sorry for the poor picture quality, but the explanation is worth it! :)
-
-### Goal
-Built RShiny app that displays top 5 personality traits necessary for a successful data scientist / data analyst across various professions and employment sectors as well as demographics data and undergraduate background  
-
-### Sample group
-Sample was taken from 140+ Business Analytics and Information Management graduates from Purdue University.
-
-### Key Finding 
-Deduced a higher importance of skills over personality for tech positions 
-
 ---
 # Python Projects
 ## Project 1: Understanding and Predicting Project Payment Latency in the Covid-19 Era
-**Won [1st place](http://meetings2.informs.org/wordpress/analytics2021/poster-sessions/) in the Student Poster Competition at INFORM Business Analytics Conference**
 
 ### Abstract
 This study develops an order-to-cash process map predictive solution to better understand home remodeling projects' pre- and post-COVID-19 payment latency. In remodeling projects, the day a project is sold (and past rescission) to the time payment is received or installment is first accepted is defined as “order-to-cash.” The risks of delayed processes and delay customer payments can hurt the company’s solvency and financial stability. Especially in the economic condition caused by the pandemic. The motivation for the current study is to optimize the prediction model of the order-to-cash during the pandemic.
@@ -108,16 +93,12 @@ This study develops an order-to-cash process map predictive solution to better u
 
 ### Results
  - Improved client’s base machine learning model by implementing target encoding feature engineering technique and weighing data, attaining 3% OpEx decrease or $800,000 potential savings
+- [1st place](http://meetings2.informs.org/wordpress/analytics2021/poster-sessions/) in the Student Poster Competition at INFORM Business Analytics Conference
 
 ### Suggestions
 Each project has [task dependency](https://www.prince2.com/usa/blog/project-dependencies). For example, you have to first cook the dinner in order to eat it. Similarly, here we had to get the product delivered in order to install it. The task durations present are in cumulative days. Further study would benefit from finding individual task durations, identifying the longest average/median task durations and then finding ways of shortening those. 
 
 Another item includes possible incorporation of time series analysis techniques to accurately predict order-to-cash estimates.
-
-## Further Details
-- [Poster Presentation](https://youtu.be/HlkxEB_osSU)</br>
-- [Poster](images/2021_Poster.pdf)</br>
-- [MWDSI Full Paper](images/Paper.pdf)</br>
 
 ## [Project 2: The Popularity Secret Behind Pokémon Card Resale Market](https://github.com/eerga/da_project)
 
@@ -133,28 +114,27 @@ After conductig statistical analysis and building a descriptive model, we conclu
 The two main metrics used to derive the conclusion were p-value and R^2 score as demonstrated in the picture below
 ![alt text](images/statistical_analysis.png)
 
-## [Project 3: Cora Analysis](https://github.com/eerga/cora)
+---
+# Tableau Project
+## [Dive Into World Suicide Data](https://public.tableau.com/app/profile/erika.ergart/viz/WorldSuicideStudy/Story1)
 
-### Data Used
-Exploring Cora dataset, consisting of 2708 scientific publications of 7 categories. 
+### Project Motivation
+As someone who absolutely loves life, I wanted to explore what were some of the main driving mechanisms behind suicide and what can be done with the data
 
-### Utilized Techniques
-1.	graph algorithms (breadth-first search) to find the shortest path from a publication to a paper subject
-2.	dynamic programming (bellman-ford) to find the distribution of distances from the most cited publication to the rest of 2708 publications
-3.	machine learning (logistic regression, decision tree, and kmeans) to accurately predict the subject of the paper.
- 
+### Project Source
+[WHO Suicide Statistics](https://www.kaggle.com/szamil/who-suicide-statistics)
+
 ### Key Findings
+- Even though some of the highest suicide numbers reported are in Russia, United States, and Japan, the suicide % rate per capita is the highest for Lithuania, Hungary, and Russia as can be seen in the following figure:</br></br>
+![alt text](images/Suicide_Rate_Percent_per_Capita.png)</br></br> The study would have been more comprehensive if data from China and India were included.
 
-- Using Bellman-ford alorithm, our team found that paper with the most citations is 35, which means that other papers cited this specific paper 35 times.
+- Men have higher suicide % rate per capita across all age categories. Even though it is suspected that this comes from social stigma associated with utilizing mental health facilities. However, to prove this hypothesis, mental health therapy data should be included in this study.
 
-![alt text](images/distance_distribution.png)
-- Average distance from the most cited paper to the rest of the papers is 4.1 citations
-- Observed the best performance in predicting 7 paper subjects from logistic regression 
-
+- The data suggests that the overall suicide rate has been declining. To have a more comprehensive study, it would be interesting to explore how COVID-19 has affected the suicide rate in the world.
 
 ---
 # SAS Project
-## [Kaggle Competition - SAS](https://www.kaggle.com/c/fall2020-mgmt571lec-project/overview)
+## [Classification Algorithms to Forecast if a Firm Will Collapse](https://www.kaggle.com/c/fall2020-mgmt571lec-project/overview)
 
 ### Project Overview
 Firm collapse prediction has been a subject of interests for almost a century and it still ranks high among hottest topics in economics. The aim of predicting financial distress is to develop a predictive model that combines various econometric measures and allows to foresee a financial condition of a firm. The purpose of the bankruptcy prediction is to assess the financial condition of a company and its future perspectives within the context of longterm operation on the market.
