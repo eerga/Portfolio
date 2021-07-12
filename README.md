@@ -151,6 +151,18 @@ Our data analytics team is consulting for Niche.com.  While Niche is a reputable
 
 Is having a higher rate of international students and smaller student to staff ratio related to higher Mid-Career 90th Percentile Salary?
 
+```sql SELECT s1.SchoolName, s1.SchoolType,
+s1.MidCareer90thPercentileSalary, t1.student_staff_ratio,
+T1.international_students
+FROM salaries_by_college_type as s1
+INNER JOIN timesData as t1
+on s1.SchoolName = t1.university_name
+WHERE s1.MidCareer90thPercentileSalary != 'N/A' 
+and s1.SchoolName != 'University of Wisconsin'
+GROUP BY s1.SchoolName, s1.SchoolType
+ORDER BY s1.MidCareer90thPercentileSalary desc
+```
+
 ### Description of Business Problem Addressed
 Lower student to staff ratio leads to more personal relationships professors develop with students, which results into:
 - More questions answered
