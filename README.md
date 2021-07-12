@@ -152,8 +152,13 @@ Our data analytics team is consulting for Niche.com.  While Niche is a reputable
 Is having a higher rate of international students and smaller student to staff ratio related to higher Mid-Career 90th Percentile Salary?
 
 ### Description of Business Problem Addressed
-After exploring this topic, it was discovered that having a lower student to faculty ratio and higher percentage of international students leads to higher midcareer 90th percentile salary. The lower student to faculty ratio helps professors to develop more personal relationships with students, which not only results into professors answering all of the students' questions, but also in professors assisting their students place into higher paying jobs. The higher international student percentage can be explained by the fact that in the diverse environment there are more opportunities to learn how to approach a problem solution from multiple perspectives, which enriches the student experience and results into improved learning tactic, thus placing students in a better position.
+Lower student to staff ratio leads to more personal relationships professors develop with students, which results into:
+- More questions answered
+- Assisting with finding higher paying jobs
 
+Higher international student ratio leads to:
+- More diverse learning experience
+- Better professional expertise
 ---
 # SAS Project
 ## [Classification Algorithms to Forecast if a Firm Will Collapse](https://www.kaggle.com/c/fall2020-mgmt571lec-project/overview)
